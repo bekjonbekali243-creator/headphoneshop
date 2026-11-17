@@ -1,0 +1,238 @@
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v23-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v23-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/manrope-v23-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v23-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/manrope-v23-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo img {
+  width: 143px;
+  height: 25px;
+  display: block;
+}
+
+.nav a {
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-left: 30px;
+}
+
+.nav a:hover {
+  color: #d87d4a;
+}
+
+/* HEADER */
+.header {
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 60px;
+  height: 336px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 70px;
+}
+
+.cart {
+  color: #fff;
+}
+.cart img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-top: 60px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-top: 120px;
+}
+
+.product-image,
+.product-text {
+  flex: 495px;
+}
+
+.product-image {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+.product.reverse {
+  flex-direction: row-reverse;
+}
+
+.new {
+  color: #d87d4a;
+  letter-spacing: 8px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.product-text h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.desc {
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #d87d4a;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background-color: #fbaf85;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-top: 150px;
+  margin-bottom: 120px;
+}
+
+.about-text,
+.about-image {
+  width: 495px;
+}
+
+.about-text h2 {
+  font-size: 40px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.orange {
+  color: #d87d4a;
+}
+
+.about-image img {
+  border-radius: 10px;
+  display: block;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 70px 0 40px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.footer-text {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 500px;
+}
+
+.social a {
+  color: #fff;
+  margin-left: 15px;
+}
+
+.copyright {
+  color: #999;
+  font-size: 13px;
+  margin-top: 50px;
+}
+
